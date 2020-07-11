@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>AutoCAT</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+
+    <body style="background-color: #dfeef5;">
+
+        <div class="container mt-5">
+            <img src="res/AutoCAT.svg" class="d-block w-50 mx-auto">
+            <h1 class="text-center mt-5">
+                The
+                <span style="color: #6598af;">Auto</span>matic
+                <span style="color: #6598af;">C</span>hord 
+                <span style="color: #6598af;">A</span>lgori<span style="color: #6598af;">T</span>hm
+            </h1>
+
+            <p class="container text-justify mt-5 w-75">
+                AutoCAT is a VST plugin for generating MIDI chords based on an input stream of MIDI notes.
+                It works in real time, providing some accompaniment while you play, however, the algorithm can only react to past notes, so it will always take one bar to catch up to you.
+                For best results, you can feed into the plugin the midi messages used for your melody, one bar early.
+            </p>
+            <p class="container text-justify w-75">
+                AutoCAT synchronizes itself with its host, playing one chord per bar.
+                Furthermore, AutoCAT has a number of parameters that control how it behaves.
+            </p>
+            <p class="container text-justify w-75">
+                AutoCAT is OpenSource, you can check out its code <a href="https://github.com/Kyntaz/AutoCAT">here</a>.
+            </p>
+
+            <img src="res/ui.png" class="d-block w-25 mt-5 mx-auto shadow">
+
+            <h1 class="text-center mt-5" style="color: #6598af;"> Parameters </h1>
+            <ul class="mt-5 text-justify w-75 px-5 container">
+                <li> <b style="color: #6598af;">Velocity</b>: MIDI Velocity of the played notes. I also recommend combining the plugin with some MIDI humanizer plugin to get some variation in the velocity.</li>
+                <li> <b style="color: #6598af;">Density</b>: Maximum number of notes per chord. The algorithm never repeats the same note class, so the chord can end up with less notes than what is set here for some slow melodies.</li>
+                <li> <b style="color: #6598af;">Staccato</b>: Note duration, as a ratio of the measure duration. Larger values result in short stabs, while longer values get more legato pads.</li>
+                <li> <b style="color: #6598af;">Octave</b>: The base octave for the notes, chord notes can be in this octave and the octave above the one selected.</li>
+                <li> <b style="color: #6598af;">Discard Notes</b>: If this is on, the chords will replace the incoming notes, if it's off, the chords are added to the incoming notes.</li>
+                <li> <b style="color: #6598af;">Synch Play</b>: This garantees that chords always play at the begining of a measure. However, chords will only play while the host is playing. Generaly, you'll want this on for real-time comping and off when working on a composition.</li>
+            </ul>
+
+            <h1 class="text-center mt-5" style="color: #6598af;"> Demo </h1>
+            <div class="text-center mt-5">
+                <p> <b style="color: #6598af;">Marcello's Oboe Concerto in Dm - Adagio</b> (soloist's melody reharmonized by AutoCAT)</p>
+                <audio controls>
+                    <source src="res/marcello-oboe.mp3">
+                </audio>
+            </div>
+
+            <h1 class="text-center mt-5" style="color: #6598af;"> Download </h1>
+            <div class="d-flex justify-content-around">
+                <a class="text-center my-5 btn btn-info" href="res/AutoCAT.zip">Windows x64 (VST3)</a>
+            </div>
+            
+            <p class="container text-center mb-5 w-75">
+                To install, simply unzip the Autocat.vst3 into your VST folder.
+            </p>
+        </div>
+
+<!-- Lazy Loaded Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>

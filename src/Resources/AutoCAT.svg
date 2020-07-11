@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 285.3035 178.26221"
+   height="178.26221mm"
+   width="285.3035mm">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(413.70914,34.04963)"
+     id="layer1">
+    <ellipse
+       ry="21.849936"
+       rx="37.797619"
+       cy="39.90733"
+       cx="-328.08334"
+       id="path815"
+       style="opacity:1;fill:#6598af;fill-opacity:1;stroke:none;stroke-width:1.36856472;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       ry="21.849936"
+       rx="37.797619"
+       cy="39.917171"
+       cx="-213.10298"
+       id="path815-9"
+       style="opacity:1;fill:#6598af;fill-opacity:1;stroke:none;stroke-width:1.36856484;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       transform="matrix(1,0,0,0.57807704,0,43.814373)"
+       d="m -249.54882,66.511055 -21.08213,0 -21.08213,0 10.54107,-18.257658 10.54106,-18.257658 10.54106,18.257658 z"
+       id="path832"
+       style="opacity:1;fill:#6598af;fill-opacity:1;stroke:none;stroke-width:1.79999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       transform="matrix(1,0,0,0.57807704,0,41.924493)"
+       d="m -148.3506,-45.645826 -37.14373,-21.444944 -37.14373,-21.444946 37.14373,-21.444944 37.14374,-21.44494 -10e-6,42.889887 z"
+       id="path849"
+       style="opacity:1;fill:#6598af;fill-opacity:1;stroke:none;stroke-width:1.79999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       transform="matrix(-1,0,0,0.57807704,4.0955505,43.672489)"
+       d="m 396.97706,-48.669634 -37.14373,-21.444947 -37.14374,-21.444946 37.14374,-21.444943 37.14373,-21.44494 0,42.889885 z"
+       id="path849-0"
+       style="opacity:1;fill:#6598af;fill-opacity:1;stroke:none;stroke-width:1.80000007;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path868"
+       d="m -310.69642,83.529641 h -93.73809"
+       style="fill:none;stroke:#6598af;stroke-width:3.80156898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path870"
+       d="M -310.69641,77.848659 -383.26953,66.607426"
+       style="fill:none;stroke:#6598af;stroke-width:3.80156898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path870-6"
+       d="M -310.69558,90.581985 -383.2687,101.82322"
+       style="fill:none;stroke:#6598af;stroke-width:3.80156898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path868-7"
+       d="m -230.3927,83.474599 h 93.73809"
+       style="fill:none;stroke:#6598af;stroke-width:3.80156898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path870-5"
+       d="m -230.39271,77.793616 72.57312,-11.241234"
+       style="fill:none;stroke:#6598af;stroke-width:3.80156898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path870-6-9"
+       d="m -230.39354,90.526944 72.57312,11.241236"
+       style="fill:none;stroke:#6598af;stroke-width:3.80156898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text910"
+       y="142.02977"
+       x="-275.69586"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:Magneto;-inkscape-font-specification:Magneto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#6598af;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="fill:#6598af;fill-opacity:1;stroke-width:0.26458332"
+         y="142.02977"
+         x="-275.69586"
+         id="tspan908">AutoCAT</tspan></text>
+  </g>
+</svg>
